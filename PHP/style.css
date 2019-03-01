@@ -1,0 +1,73 @@
+input {
+    margin-bottom: 1%;
+    height: 5%;
+    padding-left: 5%;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+input[type=radio] + label:before {
+    background: #fff;
+    margin-top: -3px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 60px;
+    height: 30px;
+}
+
+input[type=radio]:checked + label:before {
+    background: lightskyblue;
+    border-color: lightskyblue;
+}
+
+article div h3 {
+    position: relative;
+    top: -43px;
+    left: 23px;
+}
+
+label{
+    cursor:pointer;
+}
+
+select {
+    margin-bottom: 1%;
+}
+
+fieldset {
+    width: 100px;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    background-color: antiquewhite;
+    padding: 2%;
+    border: solid 1px gray;
+    width: 20%;
+}
+
+section form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -8%;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

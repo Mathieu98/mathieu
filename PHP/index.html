@@ -5,32 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>projet_groupe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-        <header>
-                <h1>Bienvenue aux inscriptions journée découverte <br>à l'IUT de Blois</h1>
-            </header>
-    <main>
-    <form method="GET" action="insc.php">
-            <label for="pseudo">Rentrez votre pseudo :</label>
-            <input type="text" name="pseudo" id="pseudo" />  <br/>
-             
-                <SELECT name="date_isc" size="1">
-                <OPTION>2019/03/04
-                <OPTION>2019/03/05
-                <OPTION>2019/03/06
-                <OPTION>2019/03/07
-                <OPTION>2019/03/08
-                <OPTION>2019/03/11
-                <OPTION>2019/03/12
-                <OPTION>2019/03/13
-                <OPTION>2019/03/14
-                <OPTION>2019/03/15
-                </SELECT>  
-            <input type="submit" value="Valider">
-     </form>
-</main>
+    <section>
+        <form method="GET" action="insc.php">
+                    <input type="text" placeholder="Pseudonyme" name="pseudo" id="pseudo" required/>  <br/>
+                
+                    <SELECT name="date_isc" size="1" required>
+                        <OPTION>2019/03/04</OPTION>
+                        <OPTION>2019/03/05</OPTION>
+                        <OPTION>2019/03/06</OPTION>
+                        <OPTION>2019/03/07</OPTION>
+                        <OPTION>2019/03/08</OPTION>
+                        <OPTION>2019/03/11</OPTION>
+                        <OPTION>2019/03/12</OPTION>
+                        <OPTION>2019/03/13</OPTION>
+                        <OPTION>2019/03/14</OPTION>
+                        <OPTION>2019/03/15</OPTION>
+                    </SELECT> 
+                
+                    <h3>Groupe de TP</h3>
+                    
+                    <article>
+                        <div>
+                            <input type="radio" id="A" name="groupe" value="A" checked>
+                            <label for="A"><h3>A</h3></label>
+                        </div>
+                            
+                        <div>
+                            <input type="radio" id="B" name="groupe" value="B">
+                            <label for="B"><h3>B</h3></label>
+                        </div>
+                            
+                        <div>
+                            <input type="radio" id="C" name="groupe" value="C">
+                            <label for="C"><h3>C</h3></label>
+                        </div>  
+                        
+                        <div>
+                            <input type="radio" id="D" name="groupe" value="D">
+                            <label for="D"><h3>D</h3></label>
+                        </div>  
+                            
+                        <div>
+                                <input type="radio" id="E" name="groupe" value="E">
+                                <label for="E"><h3>E</h3></label>
+                        </div>  
+                    </article>
+
+                    <input type="submit" value="Valider">
+        </form>    
+    </section>
 </body>
 </html>

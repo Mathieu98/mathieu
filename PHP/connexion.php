@@ -1,7 +1,7 @@
 <?php 
  
   $host    = 'localhost';   // adresse du serveur
-  $dbname  = 'projet_tp';       // nom de la base de données
+  $dbname  = 'insc';       // nom de la base de données
   $user    = 'root';      // nom d'utilisateur de la BDD
   $pass    = 'root';     //  mot de passe de l'utilisateur
 
