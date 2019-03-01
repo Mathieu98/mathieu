@@ -17,7 +17,8 @@
 
                 $sql->execute();
             } else 
-                echo 'Plus de place disponible pour cette date';
+                echo 'Plus de place disponible pour cette date petit scarabé';
+
         ?>
 
         <?php
